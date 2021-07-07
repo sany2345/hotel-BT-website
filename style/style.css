@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clearfix{
+    clear: both;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+#header{
+    background-color: black;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    padding: 10px 0;
+    color: white;
+
+}
+.brand-logo{
+    font-size: 25px;
+}
+#header nav{
+    float: right;
+}
+#navber{
+    list-style: none;
+}
+#navber li{
+    float: left;
+}
+#navber li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px 10px;
+}
+#navber li a:hover{
+    background-color: #333;
+    color: orange;
+}
+#navber li a:active{
+    
+}
+#showcase{
+    background: url(./Fav...Bedroom.jpg) no-repeat center center/cover;
+    text-align: center;
+    padding: 100px;
+    
+    max-height: 600px;
+}
+.showcase-heading{
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+}
+.showcase-heading span{
+    color: orange;
+}
+.showcase-text{
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+.showcase-btn{
+    padding: 15px;
+    background-color:white ;
+    color: black;
+    text-decoration: none;
+}
+.showcase-btn:hover{
+    background-color: tomato;
+}
+.img{
+    float: left;
+    width: 50%;
+height: 400px;
+}
+.about-description{
+    float: left;
+    width: 50%;
+text-align: center;
+box-sizing: border-box;
+padding: 30px;
+padding-top: 20px;
+background-color: black;
+height: 400px;
+padding-top: 65px;
+
+}
+.memo-heading{
+    font-size: 25px;
+color: white;
+padding-bottom: 20px;
+}
+.memo-heading span{
+    color: orange;
+}
+.memo-text{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.memo-btn{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.memo-btn:hover{
+background-color: chartreuse;
+}
+.single-service{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 50px 0;
+    box-sizing: border-box;
+    background-color: teal;
+   padding-top: 10px;
+}
+.icon i{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.service-heading{
+    padding-bottom: 10px;
+}
+.double-service{
+    background-color: orange;
+}
+/*about-section*/
+.about-heading{
+    font-size:25px;
+    padding-top:10px;
+    padding-bottom:10px
+}
+.about-heading span{
+    color:orange;
+}
+.about-text{
+font-size: 20px;
+line-height: 25px;
+}
+.about-container{
+    margin-left: 30px;
+}
+.about-hotel-description{
+    float: left;
+    width: 50%;
+}
+.himage{
+    width: 30%;
+    padding-top: 10px;
+    float: left;
+    border-radius: 150px;
+    margin-left: 120px;
+    height: 240px;
+}
+#testimonial{
+    background:url(./Attractive\ villa.jpg) no-repeat center center/cover;
+    padding: 110px;
+}
+.guest-heading{
+font-size: 50px;
+color: white;
+text-align: center;
+padding: 20px;
+}
+.single-review{
+    background-color: yellow;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.client-img{
+    width: 100px;
+    border-radius: 20px;
+    float: left;
+    height: 65px;
+    margin-right: 10px;
+
+}
+.client-text{
+    font-size: 15px;
+    padding-top: 10px;
+}
+/*contact-area*/
+#information{
+    margin-left: 30px;
+
+}
+.info-heading{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.info-text{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.info-heading span{
+color: orange;
+}
+.form lavel{
+    display: block;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.form-group{
+    padding-bottom: 20px;
+}
+.form-control{
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.info-btn{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.info-btn:hover{
+    background-color: lawngreen;
+    color: black;
+}
+#contact{
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+    overflow: hidden;
+    
+}
+.single-cont{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+
+}
+.single-cont i{
+    font-size: 20px;
+}
+.cont-heading{
+    font-size: 25px;
+}
+
+/*footer-section*/
+footer{
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+}
+footer p{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

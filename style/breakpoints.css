@@ -1,0 +1,46 @@
+#header .logo, #header nav, #navber li {
+    float: none;
+text-align: center;
+}
+ .img{
+     float: none;
+width: 100%; 
+ }
+ .about-description{
+     float: none;
+     width: 100%;
+ }
+
+.about-container{
+    float: none;
+    width: 100%;
+    margin: auto;
+    margin-left: 25px;
+}
+.about-hotel-description{
+    float: none;
+    width: 100%;
+}
+.about-hotel-img{
+    float: none;
+  
+}
+.himage{
+    border-radius: 0;
+    width: 580px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: auto;
+}
+.single-cont{
+    float: none;
+    width: 100%;
+    padding: 20px 0;
+}
+.form-group{
+    margin-right: 79px;
+    
+}
+#information{
+    margin-left: 10px;
+}
